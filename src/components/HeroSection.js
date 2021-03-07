@@ -40,6 +40,9 @@ const HeroSection = () => {
         <img src={giftcard2} alt="Cup Cake" />
         <img src={giftcard3} alt="Cup Cake" />
         <img src={coffee} alt="Cup Cake" />
+        <img src={cakebg} alt="Cup Cake" />
+        <img src={drink} alt="Cup Cake" />
+        <img src={tea} alt="Cup Cake" />
       </div>
     </div>
   );
