@@ -23,7 +23,7 @@ const GiftCard = () => {
           data-aos-delay="1200"
           data-aos-easing="ease-out-back"
         >
-          <img src={giftcard3} alt="" />
+          <img src={giftcard3} alt="" onLoad={() => console.log("loaded")} />
         </div>
         <div
           className="gift-card"
