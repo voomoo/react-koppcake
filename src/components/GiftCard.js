@@ -40,6 +40,7 @@ const GiftCard = () => {
           data-aos-easing="ease-out-back"
           data-aos-mirror="false"
           data-aos-once="true"
+          data-aos-offset="-200"
         >
           <img src={giftcard2} alt="" />
         </div>

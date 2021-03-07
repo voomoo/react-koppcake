@@ -11,6 +11,8 @@ import tea from "../assets/tea.svg";
 import giftcard from "../assets/giftcard.svg";
 import giftcard2 from "../assets/giftcard2.svg";
 import giftcard3 from "../assets/giftcard3.svg";
+import round_table from "../assets/round_table.png";
+import me from "../assets/me.png";
 
 const HeroSection = () => {
   useEffect(() => {
@@ -43,6 +45,8 @@ const HeroSection = () => {
         <img src={cakebg} alt="Cup Cake" />
         <img src={drink} alt="Cup Cake" />
         <img src={tea} alt="Cup Cake" />
+        <img src={me} alt="Cup Cake" />
+        <img src={round_table} alt="Cup Cake" />
       </div>
     </div>
   );

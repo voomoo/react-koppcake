@@ -15,8 +15,8 @@ const Navbar = () => {
   };
   return (
     <div className="navbar">
-      <a
-        href="/"
+      <Link
+        to="/"
         onClick={() => {
           setActive("");
         }}
@@ -25,7 +25,7 @@ const Navbar = () => {
           <img src={logo} alt="Logo" />
           <h2>KoppCake</h2>
         </div>
-      </a>
+      </Link>
       <div className="nav-links">
         <Link
           to="/menu"
